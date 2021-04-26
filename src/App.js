@@ -1,10 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
+import Sidebar from './Sidebar';
 
 function App() {
   return (
     <div className="App">
-      <h1>Lets build a MERN Whatsapp clone</h1>
+
+      {/* Sidebar */}
+      <Sidebar />
+      {/* Chat */}
     </div>
   );
 }
